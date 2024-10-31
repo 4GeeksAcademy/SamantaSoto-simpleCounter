@@ -9,7 +9,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = ( {seconds} ) => {
 	
 	seconds = seconds + 100000;
-	const digit = String(seconds) .split('') .reverse() .map(Number);
+	const digit = String(seconds) .split('') .reverse();
 
 	return (
 		<div className="row text-center text-bg-dark p-3 m-2 grid gap-3 fw-bold">
