@@ -10,3 +10,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+*{
+
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+} 
+
+.col {
+    border-color: #434443 !important;
+}
+
+
